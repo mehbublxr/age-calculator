@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+
+}
+
+.calculator {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70VW;
+    background: #4a0957;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #381359, #5d0b6d);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2f1149, #320b3a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 3px 8px rgba(133, 133, 133, 0.5);
+    border: 1px solid rgb(186, 5, 202);
+    border-radius: 10px;
+    margin: 40px 0;
+    padding: 35px;
+
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.input-box button {
+
+    background-color: #8E0E00;
+    border: 0;
+    outline: 0;
+    padding: 12px 58px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-box button:hover {
+    background: #d30add;
+}
+
+h4#result {
+    font-size: 3vw;
+    color: #ffffff;
+}
+
+#result span {
+    color: #1eff87;
+}
